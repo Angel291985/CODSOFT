@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Simple Landing Page</title>
+        <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contacts" class="nav_link">Contacts</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div>
+                        <img src="images/home.png" alt="" class="home_img">
+                    </div>
+
+                    <div class="home_data">
+                        <div class="home_header">
+                            <h1 class="home_title">WebDev</h1>
+                            <h2 class="home_subtitle">Cod Soft</h2>
+                        </div>
+
+                        <div class="home_footer">
+                            <h3 class="home_title_details">Overview</h3>
+                            <p class="home_details">Web development is the creation, building, and maintaining of websites.
+                                It includes aspects such as web design, web publishing, web programming, and database management. 
+                                Web development involves the creation and maintenance of websites, which are collections of web pages that are publicly accessible on the internet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sponsor section">
+                <div class="sponsor_container container grid">
+                    <img src="images/html.png" alt="" class="sponsor_img">
+                    <img src="images/css.png" alt="" class="sponsor_img">
+                    <img src="images/js.png" alt="" class="sponsor_img">
+                    <img src="images/react.png" alt="" class="sponsor_img">
+                </div> 
+            </section>
+
+            <section class="about section grid" id="about">
+                <h2 class="section_title section_title-gradient">About Us</h2>
+
+                <div class="about_container container grid">
+                    <div class="about_content grid">
+                        <div class="about_data">
+                            <div class="home_footer">
+                                <h3 class="about_title_details">Overview</h3>
+                                <p class="about_details">Web development is the creation, building, and maintaining of websites.
+                                    It includes aspects such as web design, web publishing, web programming, and database management. 
+                                    Web development involves the creation and maintenance of websites, which are collections of web pages that are publicly accessible on the internet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src="images/about.png" alt="" class="about_img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service section grid" id="service">
+                <h2 class="section_title section_title-gradient">Services</h2>
+
+                <div class="service_container container grid">
+                    <div>
+                        <img src="images/service.png" alt="" class="service_img">
+                    </div>
+
+                    <div class="service_data">
+                        <p class="service_details">Web dev provide services such as to create, design, and maintain websites. Most of the services we provide are:
+                            Content Management System,
+                            Shopping Cart / Online Ordering System / Online Payments,
+                            Event Booking System,
+                            Event Calendar,
+                            Document Management System.</p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button_icon"></i>More Info
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products section" id="products">
+                <h2 class="section_title section_title-gradient products_line">
+                    Choose <br> Your Services
+                </h2>
+
+                <div class="products_container container grid">
+                    <article class="products_card">
+                        <div class="products_content">
+                            <img src="images/cms.png" alt="" class="products_img">
+
+                            <h3 class="product_title">CMS</h3>
+                        </div>
+                    </article>
+                    <article class="products_card">
+                        <div class="products_content">
+                            <img src="images/shop_cart.png" alt="" class="products_img">
+
+                            <h3 class="product_title">Shopping Cart</h3>
+                        </div>
+                    </article>
+                    <article class="products_card">
+                        <div class="products_content">
+                            <img src="images/event.png" alt="" class="products_img">
+
+                            <h3 class="product_title">Calendar event</h3>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer_container container grid">
+                <a href="#" class="footer_logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+
+                <div class="footer_content">
+                    <h3 class="footer_title">Services</h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#" class="footer_link">Shooping Cart</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">CMS</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Event Calendar</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Booking System</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer_title">Contacts</h3>
+    
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#" class="footer_link">Example02@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Call: +2134567890</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">LinkedIn: DevCodSoft</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Website: www.webdevcode.co.za</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <form action="" class="footer_form">
+                        <input type="email" placeholder="Email" class="footer_input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button_icon"></i> Get in Touch
+                        </button>
+                    </form>
+
+                    <div class="footer_social">
+                        <a href="#" target="_blank" class="footer_social-link">
+                            <i class="ri-facebook-fill"></i>
+                            <img src="images/fb.png" alt="">
+                        </a>
+                        <a href="#" target="_blank" class="footer_social-link">
+                            <i class="ri-instagram-line"></i>
+                            <img src="images/insta.png" alt="">
+                        </a>
+                        <a href="#" target="_blank" class="footer_social-link">
+                            <i class="ri-twitter-line"></i>
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                    </div>
+
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup_icon"></i>
+        </a>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
