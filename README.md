@@ -2,11 +2,11 @@
 This the repository that contains the codsoft internship projects for the web Development. I will be completing all level 1 tasks for the project.
 
 # Table Of Content
-- [Calculator][#Calculator]
-- [Landing_Page][#Landing_Page]
-- [Portfolio][#Portfolio]
-- [Blog_Site][#Blog_Site]
-- [Contact][#Contact]
+- Calculator
+- Landing_Page
+- Portfolio
+- Blog_Site
+- Contact
 
 # Calculator
 ## task 1
